@@ -1,0 +1,278 @@
+{
+  "source_revision": "608c01a388656b70295252ce72b51114897ecb6b",
+  "author": "dev_slime",
+  "files": [
+    {
+      "destination": "Scripts/PlayerInteraction/ChestController.cs",
+      "source": "Assets/Scripts/Inventory/ChestController.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "0b93f3bb0f1eb0b691e33efb9b8213bde64ca1ba251c6ed9b03672108b84a1b4",
+      "attribution": {
+        "dev_slime": 277
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestData.cs",
+      "source": "Assets/Scripts/Inventory/ChestData.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "4a51c6afb520d11400c22d178fc705d4f8e52b75a7b1cbbe16b52ca2ebccd27c",
+      "attribution": {
+        "dev_slime": 27
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestSlot.cs",
+      "source": "Assets/Scripts/Inventory/ChestSlot.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "4cdc0a0bf36c2dfa694219737d4cb9d8e3f3941534e3c6c457d0bc2bfe47d621",
+      "attribution": {
+        "dev_slime": 54
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestSlotUI.cs",
+      "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "dd398b28a3301ecdb8e1b2c4ab522ca3df02dfe0a4f73374743087c2d3ffbf6e",
+      "attribution": {
+        "dev_slime": 197
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestTile.cs",
+      "source": "Assets/Scripts/Inventory/ChestTile.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "ecb3a02023539d0b4129e399f720ba77ae82981ec7b7d7ca3a2da98f8ba6c15c",
+      "attribution": {
+        "dev_slime": 18
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestTileManager.cs",
+      "source": "Assets/Scripts/Inventory/ChestTileManager.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "d8947bc8c5a0c026791e8214cd567e9610fb6069c8e6fa72b92a73b1b9815e07",
+      "attribution": {
+        "dev_slime": 99
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ChestUIManager.cs",
+      "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "f658c7bc55cbd25f985d2a11d3ae339fcc4d09257007587c76f0429ddaf94181",
+      "attribution": {
+        "dev_slime": 125
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/InventoryManager.cs",
+      "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "35d978be805a4ffb7bc043452b7dd6309a105b2872c1117c8a036b6a7ef82a60",
+      "attribution": {
+        "dev_slime": 183
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/InventorySlot.cs",
+      "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "01e25eaa8402503f59190e9f38a99639979f2e5a28bb341d408e4cdfa768abab",
+      "attribution": {
+        "dev_slime": 121
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/ItemData.cs",
+      "source": "Assets/Scripts/Inventory/ItemData.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "199e96be91dc07f91c70fe35978d066920db047beac45a60a1ce1ca9346665e0",
+      "attribution": {
+        "dev_slime": 24
+      }
+    },
+    {
+      "destination": "Scripts/Flow/TitleManager.cs",
+      "source": "Assets/Scripts/Title/TitleManager.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "d070c13cc86ff713c3b6751c7b9bd5ee0d2db36d90aabe8b8486582132ab7b27",
+      "attribution": {
+        "dev_slime": 19
+      }
+    },
+    {
+      "destination": "Scripts/Ending/EndingSceneSetup.cs",
+      "source": "Assets/Scripts/System/EndingSceneSetup.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "3ac57c35288198f1c7b69067f5f2676a686ad03b1a8d344fba1d6c367ab7a196",
+      "attribution": {
+        "dev_slime": 52
+      }
+    },
+    {
+      "destination": "Scripts/Ending/EndingInput.cs",
+      "source": "Assets/Scripts/System/EndingInput.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "a86698d509a650d08f190a6abbc39ae236d859d051ff28550d40e6bd4dad5b97",
+      "attribution": {
+        "dev_slime": 22
+      }
+    },
+    {
+      "destination": "Scripts/Ending/SimpleFadeIn.cs",
+      "source": "Assets/Scripts/System/SimpleFadeIn.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "927e8ee27b87587fb97f7a4b60dbcb56b1a8350bf36bbba007e4fb8699fdf409",
+      "attribution": {
+        "dev_slime": 71
+      }
+    },
+    {
+      "destination": "Scripts/Ending/SoundManager.cs",
+      "source": "Assets/Scripts/System/SoundManager.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "96e311a46517a8dabdc64001dfbad076c30e87ad25333712d0df63f5e4f6ceed",
+      "attribution": {
+        "dev_slime": 68
+      }
+    },
+    {
+      "destination": "Scripts/Ending/KillPlayer.cs",
+      "source": "Assets/Scripts/Player/KillPlayer.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "fc2f9fb0f3d2a97e55525b430e289b3d5e65b360e9b99eb6eaf42e066b6a6621",
+      "attribution": {
+        "dev_slime": 21
+      }
+    },
+    {
+      "destination": "Scripts/BugFixes/EndingTester.cs",
+      "source": "Assets/Scripts/EndingTester.cs",
+      "kind": "original",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "sha256": "8e2e64ef421cda6d7c6ccb0acfdcb191f99f80a0345e9e16d829b15581a95804",
+      "attribution": {
+        "dev_slime": 61
+      }
+    },
+    {
+      "destination": "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+      "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          15,
+          24
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          108,
+          135
+        ],
+        [
+          168,
+          195
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    },
+    {
+      "destination": "Scripts/Ending/FlagManager.SceneCommand.Excerpt.cs",
+      "source": "Assets/Scripts/System/FlagManager.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          72,
+          93
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    },
+    {
+      "destination": "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+      "source": "Assets/Scripts/System/GameManager.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          242,
+          271
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    },
+    {
+      "destination": "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+      "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          44,
+          50
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    },
+    {
+      "destination": "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+      "source": "Assets/Scripts/Player/PlayerMovement.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          42,
+          43
+        ],
+        [
+          105,
+          106
+        ],
+        [
+          125,
+          126
+        ],
+        [
+          156,
+          157
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    },
+    {
+      "destination": "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+      "source": "Assets/Scripts/System/GameManager.cs",
+      "kind": "excerpt",
+      "revision": "608c01a388656b70295252ce72b51114897ecb6b",
+      "ranges": [
+        [
+          157,
+          178
+        ]
+      ],
+      "attribution": "dev_slime; blank lines allowed"
+    }
+  ]
+}

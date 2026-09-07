@@ -24,6 +24,8 @@ Unity 기반 감성 퍼즐 어드벤처 팀 프로젝트
 - 엔딩 분기/조건, 종결 사운드, 마무리 연출 구현
 - 최종 기능 통합 및 전체 플레이 테스트
 
+추가로 Git 이력에서 확인한 기여는 카메라 이동 이벤트, 선택지 독립 키 입력, 초기 달리기·스태미나 구현입니다. 팀 개발 이후에는 일기 조각 조합과 분노방 연타 퍼즐을 추가했습니다.
+
 ## 공개 범위
 
 본 저장소는 포트폴리오 제출용 저장소이며, 직접 작성한 코드 및 설명 자료 중심으로 구성했습니다.
@@ -44,8 +46,16 @@ Unity 기반 감성 퍼즐 어드벤처 팀 프로젝트
 | 마무리 연출 | [SimpleFadeIn.cs](Scripts/Ending/SimpleFadeIn.cs), [EndingInput.cs](Scripts/Ending/EndingInput.cs) | 페이드 종료 후 대화 시작, 엔딩 전용 대화 입력 |
 | 사운드 | [SoundManager.cs](Scripts/Ending/SoundManager.cs), [효과 명령 발췌](Scripts/Ending/GameManager.SoundEffects.Excerpt.cs) | BGM·SFX 재생 및 BGM 정지 명령 |
 | 기능 수정·유지보수 | [ChestInputPriority.Excerpt.cs](Scripts/BugFixes/ChestInputPriority.Excerpt.cs), [EndingTester.cs](Scripts/BugFixes/EndingTester.cs) | 상자 입력 우선 처리, 엔딩 조건 수동 재현 |
+| 카메라·이벤트 진행 | [EventManager.Excerpt.cs](Scripts/Flow/EventManager.Excerpt.cs), [EventData.Excerpt.cs](Scripts/Flow/EventData.Excerpt.cs) | 카메라 이동·대기·복귀, 대화와 씬 전환 연결 |
+| 이벤트 조건 연결 | [TriggerController.Excerpt.cs](Scripts/Flow/TriggerController.Excerpt.cs) | 조건 검사와 이벤트 트리거 보완 |
+| 선택지 키 입력 | [ChoicePanelUI.Excerpt.cs](Scripts/Ending/ChoicePanelUI.Excerpt.cs) | 플레이어 매니저 연결 없이 선택 이동·확정 키 처리 |
+| 일기 조합 퍼즐 | [DiaryFragmentCombiner.cs](Scripts/Puzzle/DiaryFragmentCombiner.cs) | 인벤토리의 조각 확인, 완성 아이템·플래그·효과음 처리 (2026.05) |
+| 분노방 퍼즐 | [RageInputCounter.cs](Scripts/Puzzle/RageInputCounter.cs) | 제한 시간 내 연타 수, 진행 UI, 완료 이벤트 처리 (2026.05) |
+| 초기 구현·실험 | [Historical 안내](Scripts/Historical/README.md) | 달리기·스태미나 초기 구현과 별도 브랜치 컷신 실험 |
 
 [기여 내역 및 버그 수정 사례](Docs/contribution.md) · [코드 읽기 안내](Docs/code-guide.md) · [화면 자료](Docs/screenshots/README.md)
+
+2026.09.07에 전체 브랜치의 작성자 일치 기록 29개를 재점검해 누락 자료 14개를 추가했습니다. 현재 공개 코드 자료는 원본·발췌를 합쳐 37개입니다. [커밋별 확인 및 반영 결과](Docs/commit-audit.md)에서 코드 외 씬·CSV 설정 기여도 확인할 수 있습니다.
 
 ## 게임 화면
 

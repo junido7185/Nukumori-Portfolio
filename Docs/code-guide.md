@@ -7,6 +7,10 @@
 3. `Ending/FlagManager.SceneCommand.Excerpt.cs`에서 분기 결과의 씬 전환을, `EndingSceneSetup.cs`에서 씬 이동 후 UI 재연결을 확인합니다.
 4. `SimpleFadeIn.cs`, `EndingInput.cs`, `SoundManager.cs`에서 연출·입력·오디오 연결을 읽습니다.
 5. `BugFixes/`와 [기여 내역](contribution.md)에서 문제 상황과 수정 근거를 확인합니다.
+6. `Flow/EventManager.Excerpt.cs`와 `EventData.Excerpt.cs`에서 카메라 이동·복귀 및 이벤트 연계를, `Ending/ChoicePanelUI.Excerpt.cs`에서 선택지 키 입력을 확인합니다.
+7. `Puzzle/`는 2026.05의 개인 개선 코드입니다. [Historical 안내](../Scripts/Historical/README.md)는 현재 통합본에 없는 초기 구현을 설명합니다.
+
+이번 전체 브랜치 재점검 결과는 [커밋별 점검표](commit-audit.md)에 있습니다. `Additional.Excerpt.cs` 파일은 기존 발췌에서 빠졌던 동일 원본 파일의 기여 구간을 보완합니다. 파일명과 원본 줄 번호를 함께 읽어 주세요.
 
 ## 원본과 발췌본
 
@@ -21,6 +25,10 @@
 | 엔딩 | GameManager, TalkManager, FlagManager, FadeManager 등 팀 공통 시스템, 대사·조건 CSV, 엔딩 UI |
 | 사운드 | Inspector에 지정한 AudioSource·AudioClip과 효과 명령의 이름 매칭 |
 | 테스트 | 원본 Unity Editor의 엔딩 분기 데이터와 매니저 연결 |
+| 카메라 이벤트 | CinemachineCamera, PlayerCore, EventSequence와 씬의 카메라 추적 설정 |
+| 퍼즐 | InventoryManager, ItemData의 ID, FlagManager, TriggerController와 완료 이벤트 설정 |
+
+퍼즐 코드는 설정된 플래그를 기록합니다. 예를 들어 일기 조합의 기본값 `flag.diary_complete`가 원본 엔딩 조건 데이터와 일치하는지는 별도 씬·CSV 연결 검증이 필요합니다. 코드가 존재한다는 이유로 전체 게임에서 통합 플레이 검증이 끝났다고 주장하지 않습니다.
 
 ## 검증 범위
 

@@ -1,0 +1,1359 @@
+{
+  "date": "2026-09-07",
+  "github_account": "junido7185",
+  "git_author": "dev_slime",
+  "source_revision": "608c01a388656b70295252ce72b51114897ecb6b",
+  "refs": [
+    {
+      "ref": "FORCOPY",
+      "commit": "16a2e04c0848f3528b36bf9d257de6a4251086e5"
+    },
+    {
+      "ref": "Jun",
+      "commit": "608c01a388656b70295252ce72b51114897ecb6b"
+    },
+    {
+      "ref": "MINBR",
+      "commit": "b3aafb18e211192d1169b38a557c3d026c5aff82"
+    },
+    {
+      "ref": "Nukumori",
+      "commit": "8da09acdc150953f60a4b7820feb117b2af96535"
+    },
+    {
+      "ref": "main",
+      "commit": "2ef79da923c95da00bea00d333393db453be5a66"
+    },
+    {
+      "ref": "sunya",
+      "commit": "15360016c7ea4afce1d7c0394dd791472d8c3975"
+    },
+    {
+      "ref": "origin/0827backup",
+      "commit": "7ee207c89f15ca51bfb7cf4c82c6493d0c652a19"
+    },
+    {
+      "ref": "origin/AnimationTest",
+      "commit": "fe3a1b192060edf0052fd5bd3c3add1f59b160a6"
+    },
+    {
+      "ref": "origin/FORCOPY",
+      "commit": "16a2e04c0848f3528b36bf9d257de6a4251086e5"
+    },
+    {
+      "ref": "origin",
+      "commit": "a2a359d790cd84273abb3a639622469709981021"
+    },
+    {
+      "ref": "origin/Jun",
+      "commit": "608c01a388656b70295252ce72b51114897ecb6b"
+    },
+    {
+      "ref": "origin/MINBR",
+      "commit": "b3aafb18e211192d1169b38a557c3d026c5aff82"
+    },
+    {
+      "ref": "origin/Nukumori",
+      "commit": "a2a359d790cd84273abb3a639622469709981021"
+    },
+    {
+      "ref": "origin/endingwork",
+      "commit": "027530de219a7dd2a705cb64dc41b015f04290cc"
+    },
+    {
+      "ref": "origin/min22",
+      "commit": "0a2e2283e298559ec9a99a200b79dff39fcd13b7"
+    },
+    {
+      "ref": "origin/nukumori_newtest",
+      "commit": "801005d2e168c31afabeaeb62f64e60e9b88e740"
+    },
+    {
+      "ref": "origin/sunya",
+      "commit": "b375281f0984c863dd8aba252eb1e4145ee424d4"
+    }
+  ],
+  "current_coverage": [
+    {
+      "source": "Assets/Scripts/EndingTester.cs",
+      "personal_nonblank_lines": 54,
+      "destinations": [
+        "Scripts/BugFixes/EndingTester.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestController.cs",
+      "personal_nonblank_lines": 238,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestController.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestData.cs",
+      "personal_nonblank_lines": 23,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestData.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestSlot.cs",
+      "personal_nonblank_lines": 45,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestSlot.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+      "personal_nonblank_lines": 167,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestSlotUI.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestTile.cs",
+      "personal_nonblank_lines": 16,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestTile.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestTileManager.cs",
+      "personal_nonblank_lines": 81,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestTileManager.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+      "personal_nonblank_lines": 101,
+      "destinations": [
+        "Scripts/PlayerInteraction/ChestUIManager.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+      "personal_nonblank_lines": 156,
+      "destinations": [
+        "Scripts/PlayerInteraction/InventoryManager.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+      "personal_nonblank_lines": 105,
+      "destinations": [
+        "Scripts/PlayerInteraction/InventorySlot.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Inventory/ItemData.cs",
+      "personal_nonblank_lines": 21,
+      "destinations": [
+        "Scripts/PlayerInteraction/ItemData.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Map/TilePositionDebugger.cs",
+      "personal_nonblank_lines": 9,
+      "destinations": [
+        "Scripts/BugFixes/TilePositionDebugger.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Player/KillPlayer.cs",
+      "personal_nonblank_lines": 19,
+      "destinations": [
+        "Scripts/Ending/KillPlayer.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+      "personal_nonblank_lines": 97,
+      "destinations": [
+        "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+        "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+        "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Player/PlayerMovement.cs",
+      "personal_nonblank_lines": 24,
+      "destinations": [
+        "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+        "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Player/PlayerPortalChecker.cs",
+      "personal_nonblank_lines": 2,
+      "destinations": [
+        "Scripts/BugFixes/PlayerPortalChecker.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Puzzle/DiaryFragmentCombiner.cs",
+      "personal_nonblank_lines": 54,
+      "destinations": [
+        "Scripts/Puzzle/DiaryFragmentCombiner.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Puzzle/RageInputCounter.cs",
+      "personal_nonblank_lines": 127,
+      "destinations": [
+        "Scripts/Puzzle/RageInputCounter.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/EndingInput.cs",
+      "personal_nonblank_lines": 18,
+      "destinations": [
+        "Scripts/Ending/EndingInput.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/EndingSceneSetup.cs",
+      "personal_nonblank_lines": 44,
+      "destinations": [
+        "Scripts/Ending/EndingSceneSetup.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/EventData.cs",
+      "personal_nonblank_lines": 14,
+      "destinations": [
+        "Scripts/Flow/EventData.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/EventManager.cs",
+      "personal_nonblank_lines": 103,
+      "destinations": [
+        "Scripts/Flow/EventManager.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/FlagManager.cs",
+      "personal_nonblank_lines": 55,
+      "destinations": [
+        "Scripts/Ending/FlagManager.SceneCommand.Excerpt.cs",
+        "Scripts/Ending/FlagManager.Additional.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/GameManager.cs",
+      "personal_nonblank_lines": 82,
+      "destinations": [
+        "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+        "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+        "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/SimpleFadeIn.cs",
+      "personal_nonblank_lines": 58,
+      "destinations": [
+        "Scripts/Ending/SimpleFadeIn.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/SoundManager.cs",
+      "personal_nonblank_lines": 59,
+      "destinations": [
+        "Scripts/Ending/SoundManager.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/System/TriggerController.cs",
+      "personal_nonblank_lines": 19,
+      "destinations": [
+        "Scripts/Flow/TriggerController.Excerpt.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/Title/TitleManager.cs",
+      "personal_nonblank_lines": 17,
+      "destinations": [
+        "Scripts/Flow/TitleManager.cs"
+      ]
+    },
+    {
+      "source": "Assets/Scripts/UI/ChoicePanelUI.cs",
+      "personal_nonblank_lines": 21,
+      "destinations": [
+        "Scripts/Ending/ChoicePanelUI.Excerpt.cs"
+      ]
+    }
+  ],
+  "commits": [
+    {
+      "commit": "608c01a388656b70295252ce72b51114897ecb6b",
+      "date": "2026-05-07",
+      "subject": "개인적으로 업그레이드",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/EndingTester.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/EndingTester.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Map/TilePositionDebugger.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/TilePositionDebugger.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerPortalChecker.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerPortalChecker.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Puzzle/DiaryFragmentCombiner.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Puzzle/DiaryFragmentCombiner.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Puzzle/RageInputCounter.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Puzzle/RageInputCounter.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EndingSceneSetup.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/EndingSceneSetup.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EventManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventManager.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/FadeManager.cs",
+          "status": "M",
+          "portfolio": []
+        },
+        {
+          "source": "Assets/Scripts/System/GameManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+            "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+            "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/SoundManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/SoundManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/TriggerController.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/TriggerController.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 1,
+        "unity_metadata": 9,
+        "art_audio_assets_or_other": 3
+      },
+      "review": "퍼즐 2종 원본 및 이벤트·대화·포털·디버그 보완 발췌 추가. FadeManager의 로그 삭제는 설명으로 기록."
+    },
+    {
+      "commit": "8da09acdc150953f60a4b7820feb117b2af96535",
+      "date": "2025-12-24",
+      "subject": ",..",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "scene_or_prefab": 1,
+        "unity_metadata": 1
+      },
+      "review": "로컬 Nukumori 브랜치의 타이틀 씬 설정 작업. 씬 전체는 에셋 연결을 포함하므로 설명으로 기록."
+    },
+    {
+      "commit": "0dfa0e5ada85618baa18f32073d7cb5c1107b983",
+      "date": "2025-12-24",
+      "subject": "완성",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/System/SoundManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/SoundManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Title/TitleManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Flow/TitleManager.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "scene_or_prefab": 2,
+        "unity_metadata": 4,
+        "art_audio_assets_or_other": 2,
+        "project_configuration": 1
+      },
+      "review": "기존 TitleManager·SoundManager 원본 및 타이틀 화면에 반영. Build Settings 연결은 설명으로 기록."
+    },
+    {
+      "commit": "9a9d5376c5df3384a6ec324a2d267e6f7db98b7a",
+      "date": "2025-12-23",
+      "subject": "사운드 추가",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/System/GameManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+            "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+            "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/SoundManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Ending/SoundManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/UI/ChoicePanelUI.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/ChoicePanelUI.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "dialogue_data": 10,
+        "scene_or_prefab": 5,
+        "unity_metadata": 27,
+        "art_audio_assets_or_other": 26
+      },
+      "review": "기존 사운드 원본·명령 발췌에 더해 ChoicePanelUI 독립 키 입력 처리를 추가. 음악 파일·대사 CSV는 제외."
+    },
+    {
+      "commit": "aa17095d6365dfcb36da455af4ec6aa7e0aa6596",
+      "date": "2025-12-23",
+      "subject": "..",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/EndingTester.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/BugFixes/EndingTester.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "dialogue_data": 1,
+        "scene_or_prefab": 1,
+        "unity_metadata": 1
+      },
+      "review": "기존 EndingTester 원본에 반영. Act 5 조건/씬 설정은 설명으로 기록."
+    },
+    {
+      "commit": "a382ba540a796ea03f68bad65a0698a97bbe66a5",
+      "date": "2025-12-23",
+      "subject": "[Fix/F엔딩 씬 전환 버그 수정 및 연출 로직 완성",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Map/TilePositionDebugger.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/TilePositionDebugger.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/KillPlayer.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Ending/KillPlayer.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EndingInput.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Ending/EndingInput.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EndingSceneSetup.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Ending/EndingSceneSetup.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EventManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventManager.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/GameManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+            "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+            "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/SimpleFadeIn.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Ending/SimpleFadeIn.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "dialogue_data": 2,
+        "scene_or_prefab": 6,
+        "unity_metadata": 9,
+        "project_configuration": 1
+      },
+      "review": "기존 엔딩 초기화·연출·입력 코드에 더해 매니저·타일 디버그 보완 발췌 추가."
+    },
+    {
+      "commit": "505795679b001220d523858be51bbf52f4016d10",
+      "date": "2025-12-08",
+      "subject": "Update EditorBuildSettings.asset",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [],
+      "noncode_counts": {
+        "project_configuration": 1
+      },
+      "review": "엔딩 씬 Build Settings 등록 변경을 설명으로 기록."
+    },
+    {
+      "commit": "c16c17962a635968982f4ca0d5b20f6fa471b834",
+      "date": "2025-12-04",
+      "subject": "csv 구성 오류 해결",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [],
+      "noncode_counts": {
+        "dialogue_data": 1,
+        "scene_or_prefab": 1
+      },
+      "review": "Act 5 대사 CSV 구성과 씬 연결 수정. 스토리 원문 재배포 없이 설명으로 기록."
+    },
+    {
+      "commit": "c10f8371210f74dd3067b803942b68b2354c16f5",
+      "date": "2025-12-04",
+      "subject": "엔딩 분기 생성",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/System/FlagManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/FlagManager.SceneCommand.Excerpt.cs",
+            "Scripts/Ending/FlagManager.Additional.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "unity_metadata": 9,
+        "scene_or_prefab": 5,
+        "art_audio_assets_or_other": 4
+      },
+      "review": "기존 scene: 처리 발췌에 더해 나머지 플래그 효과 처리 기여 구간 추가."
+    },
+    {
+      "commit": "7064678ac9d009cf326a69411e1f55be53f8154a",
+      "date": "2025-12-04",
+      "subject": "엔딩 csv 생성",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [],
+      "noncode_counts": {
+        "dialogue_data": 5,
+        "unity_metadata": 6
+      },
+      "review": "Act 5 및 엔딩 4종 대사 CSV 생성·연결 작업을 설명으로 기록."
+    },
+    {
+      "commit": "fb0a715b8fbaf3ae714203084e10aa044dc8e48f",
+      "date": "2025-08-17",
+      "subject": "카메라 이동 완료",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/System/EventManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventManager.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "scene_or_prefab": 1
+      },
+      "review": "최신 EventManager의 카메라 이동·대기·복귀 기여 발췌로 반영."
+    },
+    {
+      "commit": "e9571a05d96540d037e0438de827e2d6d343b98a",
+      "date": "2025-08-17",
+      "subject": "카메라 이벤트 시스템 ing",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EventData.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventData.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EventManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventManager.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "scene_or_prefab": 1
+      },
+      "review": "EventData 카메라 설정과 EventManager·상호작용 보완 발췌로 반영."
+    },
+    {
+      "commit": "d2998ba68432f0214ed4aa491d478e5a7029392d",
+      "date": "2025-08-16",
+      "subject": "상자 안열리는 문제 해결",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/EventManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Flow/EventManager.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/GameManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+            "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+            "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "scene_or_prefab": 1
+      },
+      "review": "기존 상자 우선 입력 발췌와 추가 이동·매니저 기여 발췌로 반영."
+    },
+    {
+      "commit": "c6c92592a8ebf61f382434e21fa4196cad69801a",
+      "date": "2025-08-16",
+      "subject": "Merge branch 'FORCOPY' into Nukumori",
+      "type": "merge",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestController.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestController.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTile.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTile.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTileManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTileManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestUIManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventoryManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventorySlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ItemData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ItemData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "unity_metadata": 555,
+        "art_audio_assets_or_other": 508,
+        "scene_or_prefab": 4,
+        "project_configuration": 2
+      },
+      "review": "상자·인벤토리 브랜치 통합 커밋. 병합된 팀원 코드는 개인 작성 코드로 재분류하지 않음."
+    },
+    {
+      "commit": "4c127fbf4f01595cd561742ecbea52a3375620fc",
+      "date": "2025-08-16",
+      "subject": "인벤토리",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {},
+      "review": "최신 PlayerInteraction의 본인 기여 전체를 기존·추가 발췌에 반영."
+    },
+    {
+      "commit": "9388d04d65733ec22683c4d06f4893e827300c22",
+      "date": "2025-08-16",
+      "subject": "머지 오류 해결",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "scene_or_prefab": 1
+      },
+      "review": "상호작용 병합 오류 해결. 최신 본인 기여 구간으로 반영."
+    },
+    {
+      "commit": "a77c514f8faef175d1cd26091ae8992a64baece1",
+      "date": "2025-08-15",
+      "subject": "Merge branch 'jun-tsetroom' into FORCOPY",
+      "type": "merge",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestController.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestController.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTile.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTile.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTileManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTileManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestUIManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventoryManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventorySlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ItemData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ItemData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "unity_metadata": 555,
+        "art_audio_assets_or_other": 508,
+        "scene_or_prefab": 4,
+        "project_configuration": 2
+      },
+      "review": "인벤토리 UI 브랜치 통합 커밋. 이미 선별한 원본과 발췌로 반영."
+    },
+    {
+      "commit": "801005d2e168c31afabeaeb62f64e60e9b88e740",
+      "date": "2025-08-15",
+      "subject": "dtgf",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Cutscene/CutsceneManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/Historical/CutsceneManager.Prototype.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "scene_or_prefab": 3,
+        "unity_metadata": 4
+      },
+      "review": "nukumori_newtest 브랜치의 CutsceneManager 실험 코드를 역사 자료로 추가."
+    },
+    {
+      "commit": "687b98a1f98b59a75fe056201333abf72e1af792",
+      "date": "2025-08-15",
+      "subject": "인벤토리 ui 업글",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventoryManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventorySlot.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "unity_metadata": 509,
+        "art_audio_assets_or_other": 503,
+        "scene_or_prefab": 3
+      },
+      "review": "기존 인벤토리 원본 3종에 최신 변경 반영. 외부 아이콘 패키지 원본 제외."
+    },
+    {
+      "commit": "232be14ea391e5eca3c406f043e754a18284d7b9",
+      "date": "2025-08-15",
+      "subject": "아이템 이동",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestController.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestController.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "unity_metadata": 23
+      },
+      "review": "기존 ChestController·ChestSlotUI 원본에 최신 변경 반영."
+    },
+    {
+      "commit": "8e48347b881e3d3dcbd47461cc42658ec7ed1ed3",
+      "date": "2025-08-14",
+      "subject": "On Nukumori: !!GitHub_Desktop<test>",
+      "type": "stash",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "unity_metadata": 23
+      },
+      "review": "GitHub Desktop stash 스냅샷으로 분류. 일반 개발 커밋 또는 개인 신규 기능으로 집계하지 않음."
+    },
+    {
+      "commit": "612b9bde837743bc1888633c3fe68f8c1f04f319",
+      "date": "2025-08-14",
+      "subject": "index on Nukumori: a4c61ae 대화스킵 수정 완료",
+      "type": "stash",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "local_tool_configuration": 3
+      },
+      "review": "stash index 스냅샷으로 분류. 일반 개발 커밋으로 집계하지 않음."
+    },
+    {
+      "commit": "5d7123b633c85ebf2d15b379fe608800a81b778e",
+      "date": "2025-08-14",
+      "subject": "아이템 표시 해결",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestController.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestController.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestUIManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventoryManager.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "unity_metadata": 8,
+        "art_audio_assets_or_other": 5,
+        "scene_or_prefab": 1
+      },
+      "review": "기존 상자·인벤토리 원본에 최신 변경 반영."
+    },
+    {
+      "commit": "3bcf5eb5b17307be94a7bdc479c6b560b1db702b",
+      "date": "2025-08-05",
+      "subject": "인벤토리 밑 상자 ui 재구성",
+      "type": "development",
+      "in_current_history": true,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Inventory/ChestController.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestController.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestSlotUI.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestSlotUI.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTile.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTile.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestTileManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestTileManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ChestUIManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ChestUIManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventoryManager.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventoryManager.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/InventorySlot.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/InventorySlot.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Inventory/ItemData.cs",
+          "status": "A",
+          "portfolio": [
+            "Scripts/PlayerInteraction/ItemData.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerInteraction.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs",
+            "Scripts/BugFixes/ChestInputPriority.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        },
+        {
+          "source": "Assets/Scripts/System/GameManager.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/Ending/GameManager.SoundEffects.Excerpt.cs",
+            "Scripts/BugFixes/PortraitFallback.Excerpt.cs",
+            "Scripts/Flow/GameManager.Additional.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "unity_metadata": 19,
+        "art_audio_assets_or_other": 2,
+        "scene_or_prefab": 4,
+        "project_configuration": 2
+      },
+      "review": "기존 인벤토리 원본 10종 및 추가 상호작용·이동·GameManager 발췌로 반영."
+    },
+    {
+      "commit": "2ef79da923c95da00bea00d333393db453be5a66",
+      "date": "2025-07-16",
+      "subject": "Update PlayerMovement.cs",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {},
+      "review": "main 브랜치의 스태미나 초기 구현을 Historical 발췌로 추가."
+    },
+    {
+      "commit": "622657cac395a236a404709958cd1b1135fd8d94",
+      "date": "2025-07-15",
+      "subject": "오류 수정",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "scene_or_prefab": 1,
+        "project_configuration": 1
+      },
+      "review": "플레이어 참조 재연결 및 Shift 동작 확인을 커밋 설명에 근거해 기록."
+    },
+    {
+      "commit": "cef941f635140fe16388d0ecd873c2aed42d17a8",
+      "date": "2025-07-08",
+      "subject": "mistake",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "duplicate_project_copy": 504
+      },
+      "review": "앞선 중복 프로젝트 디렉터리 추가를 되돌린 정리 작업. 코드 저작 기여로 재분류하지 않음."
+    },
+    {
+      "commit": "33082727fbfdb6e106b2c097a3ab723b4458d6d2",
+      "date": "2025-07-08",
+      "subject": "sprint",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [
+        {
+          "source": "Assets/Scripts/Player/PlayerMovement.cs",
+          "status": "M",
+          "portfolio": [
+            "Scripts/BugFixes/PlayerMovement.NullGuards.Excerpt.cs",
+            "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+            "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs"
+          ]
+        }
+      ],
+      "noncode_counts": {
+        "local_tool_configuration": 3,
+        "unity_metadata": 1
+      },
+      "review": "Shift 달리기·속도 전환 초기 구현을 후속 2ef79da의 Historical 발췌에 함께 수록."
+    },
+    {
+      "commit": "098c19437ac5eb3f0ab35133001ac5c5f8629367",
+      "date": "2025-07-08",
+      "subject": "location",
+      "type": "development",
+      "in_current_history": false,
+      "scripts": [],
+      "noncode_counts": {
+        "art_audio_assets_or_other": 1,
+        "duplicate_project_copy": 504
+      },
+      "review": "중복 프로젝트 디렉터리 추가와 씬 위치 작업. 복사된 팀·외부 코드는 개인 작성물로 수록하지 않음."
+    }
+  ],
+  "added_files": [
+    "Scripts/BugFixes/TilePositionDebugger.Excerpt.cs",
+    "Scripts/PlayerInteraction/PlayerInteraction.Additional.Excerpt.cs",
+    "Scripts/PlayerInteraction/PlayerMovement.Additional.Excerpt.cs",
+    "Scripts/BugFixes/PlayerPortalChecker.Excerpt.cs",
+    "Scripts/Puzzle/DiaryFragmentCombiner.cs",
+    "Scripts/Puzzle/RageInputCounter.cs",
+    "Scripts/Flow/EventData.Excerpt.cs",
+    "Scripts/Flow/EventManager.Excerpt.cs",
+    "Scripts/Ending/FlagManager.Additional.Excerpt.cs",
+    "Scripts/Flow/GameManager.Additional.Excerpt.cs",
+    "Scripts/Flow/TriggerController.Excerpt.cs",
+    "Scripts/Ending/ChoicePanelUI.Excerpt.cs",
+    "Scripts/Historical/PlayerMovement.SprintStamina.Excerpt.cs",
+    "Scripts/Historical/CutsceneManager.Prototype.Excerpt.cs"
+  ]
+}

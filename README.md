@@ -47,6 +47,14 @@ Unity 기반 감성 퍼즐 어드벤처 팀 프로젝트
 
 [기여 내역 및 버그 수정 사례](Docs/contribution.md) · [코드 읽기 안내](Docs/code-guide.md) · [화면 자료](Docs/screenshots/README.md)
 
+## 게임 화면
+
+![시작 화면](Docs/screenshots/01-title.png)
+
+![Act 1 탐색 및 대화 화면](Docs/screenshots/02-act1.png)
+
+타이틀과 Act 1의 실제 실행 장면입니다. 캡처 환경과 표시 범위는 [화면 자료](Docs/screenshots/README.md)에 기록했습니다.
+
 ## 주요 구조
 
 ![게임 진입부터 상호작용과 엔딩까지의 구조](Docs/architecture.png)

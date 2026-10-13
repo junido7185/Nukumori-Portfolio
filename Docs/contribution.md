@@ -54,6 +54,10 @@ GitHub 계정: **junido7185** · 원본 Git 작성자 이름: **dev_slime**
 - **근거:** `a382ba5` 및 [PortraitFallback.Excerpt.cs](../Scripts/BugFixes/PortraitFallback.Excerpt.cs).
 - **확인할 항목:** 초상화가 있는 대화에서 없는 대화로 전환했을 때 잔상이 남지 않는지 확인합니다.
 
+## 사례 4. 비운 상자에 아이템이 다시 생성되는 문제 (2026.10.13 발견, 미수정)
+
+포트폴리오 정리 중 `ChestController.cs`를 다시 읽다가 발견했습니다. 상자를 모두 비우면 슬롯 저장 키가 삭제되고, 다음 로드 때 이를 '처음 여는 상자'로 판단해 아이템을 재생성합니다. 원인과 최소 수정안은 [README](../README.md#포트폴리오-정리-중-발견한-버그)에 정리했습니다. 공개 코드는 원본 해시를 유지하기 위해 수정하지 않았습니다.
+
 ## 엔딩 조건 재현 도구
 
 [EndingTester.cs](../Scripts/BugFixes/EndingTester.cs)는 Unity Editor에서 사용하는 수동 테스트 보조 코드입니다.

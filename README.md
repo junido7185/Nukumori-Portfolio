@@ -3,21 +3,21 @@
 감정을 상징하는 공간을 탐험하며 퍼즐과 대화로 이야기를 진행하는 **Unity 2D 감성 퍼즐 어드벤처**입니다.
 게임 개발 창업 동아리의 **4인 팀 프로젝트**였고, 이 저장소에는 그중 **제가 직접 작성한 코드만** 골라 담았습니다.
 
-![누쿠모리 타이틀 화면](Docs/screenshots/01-title.png)
+![Act 1 카페 공간과 대화 UI](Docs/screenshots/02-act1-crop.png)
 
 | | |
 | --- | --- |
 | 기간 | 2025.03 ~ 2025.12 (팀 개발) · 2026.05 개인 추가 작업 |
 | 팀 | 4인. 그래픽·스토리·사운드 리소스는 팀 작업 또는 사용 에셋의 결과물입니다 |
-| 담당 | 플레이어 상호작용(상자·인벤토리), 엔딩 진입·연출, 타이틀 진입, 버그 수정, 최종 통합 테스트 |
+| 담당 | 플레이어 상호작용(상자·인벤토리), 엔딩 진입·연출, 타이틀 진입, 버그 수정, 엔딩 조건 재현 도구([EndingTester.cs](Scripts/BugFixes/EndingTester.cs)) |
 | 기술 | C# · Unity `6000.0.49f1` · Unity UI · Physics2D · Cinemachine · Coroutine · PlayerPrefs |
 
 > 이 저장소만으로는 빌드되지 않습니다. 씬·프리팹·대사 CSV·팀 공통 코드(GameManager, TalkManager, FlagManager 등)는 포함하지 않았습니다.
 > 원본 기준 커밋: `ForSUNYA/Nukumori@608c01a` · 선별 방법은 [아래](#공개-범위와-근거) 참고
 
-## 내가 한 일 / 팀이 한 일
+## 담당 / 팀 공통 기반
 
-| 내가 구현·수정 | 팀 공통 기반 (비공개, 사용만 함) |
+| 본인 구현·수정 | 팀 공통 기반 (비공개, 사용만 함) |
 | --- | --- |
 | 상자 탐지·열기, 상자↔인벤토리 아이템 이동과 저장 | GameManager · TalkManager 대화 시스템 |
 | 엔딩 분기 결과를 씬 전환으로 잇는 `scene:` 명령 | FlagManager 조건 평가기, 이벤트 시퀀스 구조 |
@@ -27,28 +27,30 @@
 
 ## 게임 화면
 
-![Act 1 카페 공간과 대화 UI](Docs/screenshots/02-act1-crop.png)
+맨 위 이미지는 Act 1 실제 실행 화면입니다. 위쪽 빈 배경만 잘라냈고 게임 화면 자체는 수정하지 않았습니다. ([원본 1600×900 캡처](Docs/screenshots/02-act1.png) · [캡처 환경](Docs/screenshots/README.md))
 
-Act 1 실제 실행 화면입니다. 위쪽 빈 배경만 잘라냈고 게임 화면 자체는 수정하지 않았습니다. ([원본 1600×900 캡처](Docs/screenshots/02-act1.png) · [캡처 환경](Docs/screenshots/README.md))
+![누쿠모리 타이틀 화면](Docs/screenshots/01-title.png)
 
-## 대표 코드 (면접에서 바로 열어볼 곳)
+타이틀 화면입니다. 시작 버튼에서 Act 1로 넘어가는 처리([TitleManager.cs](Scripts/Flow/TitleManager.cs))를 담당했습니다.
 
-### 1. 상자·인벤토리와 저장 — 팀 기간
+## 핵심 구현
+
+### 1. 상자·인벤토리와 저장
 - [`ChestController.cs#L20-L66`](Scripts/PlayerInteraction/ChestController.cs#L20-L66) 상자 초기화: 저장 키 확인 후 로드 / 신규 생성 분기
 - [`ChestController.cs#L88-L149`](Scripts/PlayerInteraction/ChestController.cs#L88-L149) 아이템별 확률 판정 후 빈 슬롯 중 무작위 배치
 - [`ChestController.cs#L171-L220`](Scripts/PlayerInteraction/ChestController.cs#L171-L220) 슬롯 단위 PlayerPrefs 저장·로드
 - [`PlayerInteraction.Excerpt.cs#L28-L55`](Scripts/PlayerInteraction/PlayerInteraction.Excerpt.cs#L28-L55) `OverlapCircleAll`로 가장 가까운 상자 선택
-- 이 코드에서 직접 찾은 버그는 [아래](#포트폴리오-정리-중-발견한-버그)에 정리했습니다.
+- 이 코드에서 찾은 버그는 [아래](#포트폴리오-정리-중-발견한-버그)에 정리했습니다.
 
-### 2. 엔딩 씬 전환과 UI 재연결 — 팀 기간
+### 2. 엔딩 씬 전환과 UI 재연결
 - [`FlagManager.SceneCommand.Excerpt.cs#L9-L30`](Scripts/Ending/FlagManager.SceneCommand.Excerpt.cs#L9-L30) 대사 데이터의 효과 문자열 `scene:씬이름`을 해석해 씬 전환. `key=value` 분리보다 **먼저** 검사해야 하는 순서 문제를 해결했고, FadeManager가 없으면 `SceneManager.LoadScene`으로 대체합니다.
 - [`EndingSceneSetup.cs#L15-L51`](Scripts/Ending/EndingSceneSetup.cs#L15-L51) 씬 로드 후 한 프레임 대기 → Act 5에서 넘어온 Canvas 제거 → 씬 간 유지되는 GameManager에 엔딩 씬의 TalkManager·UI를 다시 연결. 엔딩 진입 후 UI가 겹치고 대화가 멈추던 문제를 해결한 코드입니다.
 
-### 3. 카메라 이동 이벤트 (Coroutine + Cinemachine) — 팀 기간
+### 3. 카메라 이동 이벤트 (Coroutine + Cinemachine)
 - [`EventManager.Excerpt.cs#L94-L143`](Scripts/Flow/EventManager.Excerpt.cs#L94-L143) 임시 추적 대상을 만들어 `vcam.Follow`를 넘기고, 거리 기준 일정 속도로 이동 → 대기 → 플레이어 위치로 복귀
-- [`#L160-L166`](Scripts/Flow/EventManager.Excerpt.cs#L160-L166) 임시 대상 정리, [`#L71-L77`](Scripts/Flow/EventManager.Excerpt.cs#L71-L77) 씬 로드 콜백을 명명된 로컬 함수로 만들어 구독 해제 보장
+- [`#L160-L166`](Scripts/Flow/EventManager.Excerpt.cs#L160-L166) 임시 대상 정리, [`#L71-L77`](Scripts/Flow/EventManager.Excerpt.cs#L71-L77) 씬 로드 콜백을 명명된 로컬 함수로 만들어 구독 해제 보장 (원본 L115는 팀원 작성 줄이라 생략)
 
-### 4. 입력 우선순위 버그 수정 — 팀 기간
+### 4. 입력 우선순위 버그 수정
 - [`ChestInputPriority.Excerpt.cs#L10-L15`](Scripts/BugFixes/ChestInputPriority.Excerpt.cs#L10-L15)
 - **문제:** 상자 근처에서 상호작용 키(E)를 눌러도 상자가 열리지 않고 대화가 먼저 실행됨
 - **원인:** 대화와 상자 열기가 같은 키를 쓰는데, 처리 순서상 대화 분기가 먼저 입력을 소비
@@ -60,7 +62,7 @@ Act 1 실제 실행 화면입니다. 위쪽 빈 배경만 잘라냈고 게임 �
 
 ## 포트폴리오 정리 중 발견한 버그
 
-> 2026-10-13 이 저장소를 다시 정리하며 제 코드를 읽다가 발견했습니다. 원본 게임과 이 저장소의 코드는 **수정하지 않았고**(공개 파일은 원본 해시와 일치하도록 유지), 원인과 수정안만 기록합니다.
+> 포트폴리오 정리 중(2026-10-13) Claude Code로 제 코드를 다시 검토하다 발견했습니다. 원본 게임과 이 저장소의 코드는 **수정하지 않았고**(공개 파일은 원본 해시와 일치하도록 유지), 원인과 수정안만 기록합니다.
 
 **증상:** 상자를 열어 아이템을 전부 꺼낸 뒤 씬을 다시 불러오면, 같은 상자에 아이템이 새로 생성됩니다. (아이템 무한 획득)
 
@@ -90,8 +92,12 @@ Act 1 실제 실행 화면입니다. 위쪽 빈 배경만 잘라냈고 게임 �
 | --- | --- | --- |
 | 2025.07 ~ 08 | 달리기·스태미나 초기 구현([Historical](Scripts/Historical/README.md)), 상자·인벤토리, 입력 우선순위 수정, 카메라 이벤트 | `3308272`, `3bcf5eb`, `d2998ba`, `e9571a0` 등 |
 | 2025.12 | `scene:` 명령, 엔딩 초기화·연출·사운드, 선택지 키 입력, 타이틀 진입 | `c10f837`, `a382ba5`, `9a9d537`, `0dfa0e5` |
-| 2026.05.07 (팀 이후) | 일기 조합·분노방 퍼즐 추가, 이벤트·엔딩 처리 정리 | `608c01a` (공개 기준 커밋) |
-| 2026.10.13 | 위 상자 버그를 문서로 기록 (코드 수정 없음) | — |
+| 2026-05-07 (팀 이후) | 일기 조합·분노방 퍼즐 추가, 이벤트·엔딩 처리 정리 | `608c01a` (공개 기준 커밋) |
+| 2026-10-13 | 위 상자 버그를 문서로 기록 (코드 수정 없음) | — |
+
+## 개발 방식
+
+이 저장소의 기여 문서([contribution.md](Docs/contribution.md), [commit-audit.md](Docs/commit-audit.md))에는 팀 기간(2025)의 AI 도구 사용 여부가 기록되어 있지 않습니다. 이 저장소의 2026-09-07 문서 커밋에는 AI 공동 작성 표기가 없고, 2026-10-13 README 정리 커밋은 Claude Code로 작성했습니다.
 
 ## 전체 파일
 
